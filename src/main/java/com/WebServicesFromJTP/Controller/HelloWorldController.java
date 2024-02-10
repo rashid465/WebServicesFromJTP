@@ -22,7 +22,7 @@ public class HelloWorldController {
 	public String fun() {
 		return "Hello World";
 	} 
-	
+	  
 	// http://localhost:5000/helloWorld
 		@GetMapping(path="/check")
 		public String check() {
