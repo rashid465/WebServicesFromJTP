@@ -16,6 +16,12 @@ public class HelloWorldController {
 	public String helloWorld() {
 		return "Hello World";
 	}
+	
+	// http://localhost:5000/helloWorld
+	@GetMapping(path="/fun")
+	public String fun() {
+		return "Hello World";
+	}
 	 
 	
 	// http://localhost:5000/hello-world-bean
