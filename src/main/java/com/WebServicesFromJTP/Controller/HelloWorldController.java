@@ -21,7 +21,7 @@ public class HelloWorldController {
 	@GetMapping(path="/fun")
 	public String fun() {
 		return "Hello World";
-	}
+	} 
 	
 	// http://localhost:5000/helloWorld
 		@GetMapping(path="/check")
