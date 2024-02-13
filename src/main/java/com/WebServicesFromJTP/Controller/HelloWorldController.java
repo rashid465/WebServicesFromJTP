@@ -27,7 +27,7 @@ public class HelloWorldController {
 		@GetMapping(path="/check")
 		public String check() {
 			return "Hello World";
-		}
+		}  
 	 
 	
 	// http://localhost:5000/hello-world-bean
