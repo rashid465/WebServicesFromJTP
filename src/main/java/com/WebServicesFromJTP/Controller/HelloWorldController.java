@@ -23,7 +23,7 @@ public class HelloWorldController {
 		return "Hello World";
 	} 
 	   
-//	// http://localhost:5000/helloWorld
+	// http://localhost:5000/helloWorld
 		@GetMapping(path="/check")
 		public String check() {
 			return "Hello World";
